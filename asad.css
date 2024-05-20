@@ -454,6 +454,13 @@ background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1
     }
 }
 
+@media(max-width: 820px){
+    .content h1{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+
 
 /* #####################3 services #######################33 */
 
