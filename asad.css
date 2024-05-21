@@ -478,6 +478,14 @@ margin-top: 1.5rem;
 .menuu{
 margin-left: 2rem;
 }
+	    #about h2{
+        font-size: 0.1rem;
+        font-weight: 0;
+    }
+
+    #about p{
+        font-size: 1rem;
+    }
 }
 
 
@@ -724,7 +732,7 @@ background-color: #d1cece;
 
     /* start 1 for grow , 2nd 1 is for shrink , 400px is for basis */
     flex: 1 1 200px;
-    padding-left: 3rem;
+    padding-left: 5rem;
     transform: translateX(150%);
     animation: about-image-animiation 1s ease-in-out forwards;
 }
@@ -2110,10 +2118,17 @@ footer {
 
 
 /* ************ Responsive contact page***************** */
-
+@media (max-width: 1024px){
+    .contact-us{
+        padding: 20px 10px;
+    }
+}
 @media (max-width: 991px){
     .contact-us{
-        padding: 20px;
+        padding: 20px 0px;
+    }
+.title h2{
+        font-size: 3rem;
     }
 
     .box {
