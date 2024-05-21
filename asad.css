@@ -1627,7 +1627,7 @@ font-size: 0.6;
       }
     
       100% {
-        transform: translateY(200vh) scale(1.1) rotate(0);
+        transform: translateY(230vh) scale(1.1) rotate(0);
       }
   }
   
@@ -1652,7 +1652,7 @@ font-size: 0.6;
       }
     
       100% {
-        transform: translateY(200vh) scale(1.1) rotate(0);
+        transform: translateY(230vh) scale(1.1) rotate(0);
       }
   }
   
@@ -1677,7 +1677,7 @@ font-size: 0.6;
       }
     
       100% {
-        transform: translateY(200vh) scale(1.1) rotate(0);
+        transform: translateY(230vh) scale(1.1) rotate(0);
       }
   }
   
@@ -1702,7 +1702,7 @@ font-size: 0.6;
       }
     
       100% {
-        transform: translateY(200vh) scale(1.1) rotate(0);
+        transform: translateY(230vh) scale(1.1) rotate(0);
       }
   }
   
@@ -1727,7 +1727,7 @@ font-size: 0.6;
       }
     
       100% {
-        transform: translateY(200vh) scale(1.1) rotate(0);
+        transform: translateY(230vh) scale(1.1) rotate(0);
       }
   }
   
@@ -1738,29 +1738,16 @@ font-size: 0.6;
     color: navy;
   }
   
-  @keyframes multiplyByFiveMoveDown {
+  @keyframes multiplyBySixMoveDown {
     0% {
       transform: translateY(-1vh) rotate(-185deg);
     }
   
     100% {
-      transform: translateY(200vh) scale(1.1) rotate(0);
+      transform: translateY(230vh) scale(1.1) rotate(0);
     }
   }
-	    .multiplyBySix {
-    animation: multiplyByFiveMoveDown 9s ease infinite 1.6s;
-    color: navy;
-  }
-  
-  @keyframes multiplyByFiveMoveDown {
-    0% {
-      transform: translateY(-1vh) rotate(-185deg);
-    }
-  
-    100% {
-      transform: translateY(200vh) scale(1.1) rotate(0);
-    }
-  }
+
 
   .letter {
     font-size: 0.8rem;
@@ -2216,6 +2203,7 @@ color: midnightblue;
 .inner-offer h2{
     font-size: 25px;
     margin: 1rem 0;
+	color: midnightblue;
 }
 .inner-offer p{
     font-size: 1.2rem;
@@ -2223,7 +2211,7 @@ color: midnightblue;
     margin-bottom: 30px;
     /* margin: 1rem 0; */
     margin-bottom: 2rem;
-	color: midnightblue;
+	
 
 }
 .inner-offer a{
